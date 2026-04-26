@@ -7,6 +7,9 @@ jobs:
   push:
     name: "ptero-socat:1.0"
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     strategy:
       fail-fast: false
     steps:
