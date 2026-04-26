@@ -1,6 +1,6 @@
 FROM bitnami/minideb:latest
 
-RUN install_packages curl ca-certificates socat
+RUN install_packages curl ca-certificates socat libssl
 
 USER container
 ENV  USER container
