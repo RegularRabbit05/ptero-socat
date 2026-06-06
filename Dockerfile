@@ -1,6 +1,6 @@
 FROM bitnami/minideb:latest
 
-RUN install_packages curl ca-certificates socat procps
+RUN install_packages curl ca-certificates socat initscripts procps
 
 USER container
 ENV  USER container
